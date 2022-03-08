@@ -1,0 +1,169 @@
+#App{ 
+  margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+ }
+ 
+ body {
+ background-color:#0B0B34;
+ }
+ 
+ .nav {
+   height: 100px;
+   padding:0px 20px;
+   vertical-align: middle;
+ }
+ 
+ .nav-logo-area{
+   height: 100%;
+   width: 100px;
+   float: left;
+ }
+ 
+ .nav-logo-area:after{
+   display: inline-block;
+   height: 100%;
+   content:"";
+   vertical-align: middle;
+ }
+ .nav-logo-area img{
+   width: 100%;
+   vertical-align: middle;
+ }
+ 
+ .nav-connect-wallet-area{
+   float: right;
+ }
+ 
+ .nav-connect-wallet-area{
+   width: 200px;
+   text-align: center;
+   height: 100%;
+   display: flex;
+ }
+ 
+ .connect-wallet-btn {
+   -webkit-user-select: none;
+   -moz-user-select: none;
+   margin: auto;
+   width:180px;
+   height:40px;
+   border-radius:40px;
+   line-height: 40px;
+   background-color: white;
+   font-weight: bold;
+ }
+ 
+ .connect-wallet-btn:hover{
+   cursor: pointer;
+ }
+ 
+ article{
+   height:100%;
+   width:calc(100% - 20px);
+   padding:0px 10px;
+ }
+ 
+ .content{
+   background-color: #2E1C4A;
+   padding: 50px;
+ }
+ 
+ .table-input{
+   width:calc(100% - 10px);
+   height: 40px;
+   background-color: transparent;
+   outline: none;
+   color:white;
+   border: none;
+   font-size: 18px;
+ }
+ 
+ h3{
+   margin: 0px;
+   color:#DAB9A5;
+   width: 100%;
+ }
+ 
+ th{
+   text-align: left;
+   color:#DAB9A5;
+   font-size: 24px;
+   width: 100%;
+ }
+ 
+ table{
+   width:100%;
+   border-collapse: collapse;
+ }
+ 
+ table td{
+   color: white;
+   font-size: 18px;
+   font-weight: bold;
+   padding: 10px 0px;
+ }
+ 
+ .vertical{
+   border-left: 2px solid rgba(121, 118, 118, 0.5);
+   height: 50px;
+   margin:0px 5px;
+ }
+ 
+ .horizontal{
+   margin: 15px 0px;
+   border-bottom: 2px solid rgba(121, 118, 118, 0.5);
+   width: 100%;
+ }
+ 
+ .left-nfts-span{
+   padding:10px;
+   color:white;
+   font-size: 48px;
+ }
+ 
+ 
+ .price-button{
+   width:50px;
+   height:50px;
+   background-color: rgba(190, 135, 181, 0.5);
+   color:white;
+   font-size: 20px;
+   border:none;
+   border-radius: 5px;
+ }
+
+ .price-button:hover{
+   cursor: pointer;
+ }
+ 
+ .price-number{
+   height:50px;
+   width:100%;
+   font-size: 30px;
+   color: white;
+   text-align: center;
+   display: inline-block;
+ }
+ 
+ input::-webkit-outer-spin-button,
+ input::-webkit-inner-spin-button{
+   appearance: none;
+ }
+ 
+ .mint-button{
+   outline:none;
+   box-shadow: none;
+   border:none;
+   background-color: gray;
+   width:100%;
+   height:40px;
+   border-radius:4px;
+   font-weight: bold;
+ }   
+ .mint-alert{
+   display: inline-block;
+   width: 100%;
+   color:gray;
+   text-align: center;
+ }
