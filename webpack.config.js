@@ -5,6 +5,17 @@ const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 
 module.exports = {
     entry: "./src/index.js",
+    resolve:{
+        fallback:{
+            http: require.resolve('stream-http'),
+            crypto: require.resolve('crypto-browserify'),
+            url: require.resolve('url/'),
+            https: require.resolve('https-browserify'),
+            stream: require.resolve('stream-browserify'),
+            fs: false,
+
+        }
+    },
     output: {
         filename: "bundle.js",
         path: path.resolve(__dirname + "/build"),
