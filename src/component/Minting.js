@@ -1,7 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
-
 import Amount from './Amount';
+import BlockNumber from './BlockNumber';
 
 function Counter(props) {
     return (
@@ -16,7 +16,7 @@ function Counter(props) {
 
                             <tr>
                                 <td>CURRENT BLOCK</td>
-                                <td><span>#84084540</span></td>
+                                <td><BlockNumber></BlockNumber></td>
                                 <td style={{ width: '50px' }}>
                                     <div className="vertical"></div>
                                 </td>

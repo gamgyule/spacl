@@ -1,6 +1,5 @@
 const fs = require('fs');
 const Caver = require('caver-js');
-const { stringify } = require('querystring');
 const caver = new Caver('https://api.baobab.klaytn.net:8651/');
 
 async function testFunction(){

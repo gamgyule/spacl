@@ -8,6 +8,9 @@ export const decrement = createAction(DECREMENT);
 
 const initialState = {
     number: 0,
+    price: 0,
+    perTransaction: 0,
+    perWallet: 0
 }
 
 const counter = handleActions({
