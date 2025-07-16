@@ -6,6 +6,13 @@ import { Provider } from 'react-redux';
 import rootReducer from './store/modules/index';
 import { composeWithDevTools } from 'redux-devtools-extension';
 import { createStore } from 'redux';
+import create from 'zustand';
+
+const useStore = create((set) => ({
+
+  mintNum: 0,
+
+}));
 
 const store = createStore(rootReducer, composeWithDevTools());
 ReactDOM.render(

@@ -4,7 +4,6 @@ import { bindActionCreators } from 'redux';
 import { increment, decrement } from '../store/modules/Amount';
 
 function Counter({number, increment, decrement}) {
-    console.log(increment);
     return (
         <table className="table">
             <thead>
